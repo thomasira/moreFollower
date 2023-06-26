@@ -1,0 +1,33 @@
+body{
+    position: relative;
+    margin: 0;
+    background-color: slategray;
+    width: 100%;
+    height: 4000px;
+    color: white;
+}
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.move-box{
+    max-width: 100%;
+    padding: 50px;
+    background-color: black;
+    height: 100%;
+    transition-duration: .2s;
+    transition-property: width;
+}
+.content{
+    display: block;
+    min-height: 100%;
+    opacity: 0;
+    transition-duration: .8s;
+    transition-property: opacity;
+}
+.content h1{
+    text-align: center;
+}
+.content p {
+    font-size: 20px;
+}
